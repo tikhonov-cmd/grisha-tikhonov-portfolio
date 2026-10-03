@@ -2,3 +2,8 @@
 __pycache__/
 *.zip
 tmp/
+
+# Private design working documents
+.impeccable/
+PRODUCT.md
+DESIGN.md

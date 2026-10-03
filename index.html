@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#121211">
+  <meta name="theme-color" content="#c6c8c8">
   <title>Гриша Тихонов — режиссёр</title>
   <meta name="description" content="Гриша Тихонов. Игровое и документальное кино: четыре выбранных фильма, кадры и контакт для сотрудничества.">
   <meta property="og:type" content="website">
@@ -14,62 +14,59 @@
   <meta property="og:url" content="https://tikhonov-cmd.github.io/grisha-tikhonov-portfolio/">
   <link rel="canonical" href="https://tikhonov-cmd.github.io/grisha-tikhonov-portfolio/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="preload" href="assets/fonts/robotocondensed.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=20261004-redesign">
+  <script src="script.js?v=20261004-redesign" defer></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#films">Перейти к фильмам</a>
   <div class="wrap">
-    <header class="site-header">
-      <a class="wordmark" href="#top">Гриша Тихонов<span>Режиссёр</span></a>
-      <nav class="site-nav" aria-label="Навигация по странице">
-        <a href="#films">Фильмы</a>
-        <a href="#about" class="nav-about">О себе</a>
-        <a href="#contact">Контакт ↗</a>
-      </nav>
-    </header>
-    <main>
-      <section class="hero" aria-labelledby="page-title">
-        <p class="eyebrow">Режиссёрское портфолио</p>
-        <h1 id="page-title">Гриша Тихонов</h1>
-        <div class="hero-bottom">
-          <p class="hero-intro">Игровое и документальное кино.<br>Наблюдение, ритм и эксперименты с формой.</p>
-          <a href="#films" class="hero-link">Смотреть работы <span aria-hidden="true">↓</span></a>
-        </div>
-      </section>
-      <section id="films" aria-labelledby="films-title">
-        <div class="section-heading"><h2 id="films-title">Выбранные фильмы</h2><span>01 — 04</span></div>
-        <article class="film" id="pizdets" aria-labelledby="pizdets-title">
-          <div class="film-info">
-            <span class="film-index" aria-hidden="true">01</span>
-            <h3 id="pizdets-title">Пиздец</h3>
-            <p class="film-meta"><span>Игровой короткий метр</span><span aria-label="Длительность фильма">3:19</span></p>
-            <p class="film-description">Короткий игровой фильм, в котором я работаю по обе стороны камеры.</p>
-            <p class="film-role">Режиссёр и актёр</p>
-            <a class="watch-link" href="https://disk.yandex.ru/i/VKe8W2PtGh3Krw" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Пиздец» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <span aria-hidden="true">↗</span></a>
+    <header class="masthead"><h1 id="page-title">Гриша Тихонов</h1></header>
+    <main class="portfolio">
+      <aside class="film-directory" aria-label="Выбор фильма">
+        <div class="directory-inner">
+          <nav class="work-index" aria-label="Фильмы">
+            <a href="#pizdets" aria-current="location"><span>01</span>Пиздец</a>
+            <a href="#your-penis-size"><span>02</span>Your penis size</a>
+            <a href="#tam-nas-zhdut"><span>03</span>Там нас ждут</a>
+            <a href="#potok"><span>04</span>Поток</a>
+          </nav>
+          <div class="directory-bottom">
+            <p class="hero-intro">Игровое и документальное кино. Наблюдение, ритм и эксперименты с формой.</p>
+            <nav class="directory-links" aria-label="Об авторе"><a href="#about">О себе</a><a href="#contact">Контакт</a></nav>
           </div>
+        </div>
+      </aside>
+      <section id="films" aria-labelledby="films-title">
+        <article class="film" id="pizdets" aria-labelledby="pizdets-title">
           <div class="gallery" data-title="Пиздец" style="--ratio: 4 / 3">
             <div class="gallery-track" role="region" aria-label="Кадры из фильма «Пиздец». Листайте стрелками или прокруткой" tabindex="0">
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 1 из фильма «Пиздец»">
-                  <img src="assets/frames/pizdets/02m26s.webp" srcset="assets/frames/pizdets/02m26s-small.webp 640w, assets/frames/pizdets/02m26s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Мужчина лежит рядом с бетономешалкой в полутёмном помещении" loading="eager" decoding="async">
+                  <img src="assets/frames/pizdets/02m26s.webp" srcset="assets/frames/pizdets/02m26s-small.webp 640w, assets/frames/pizdets/02m26s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Мужчина лежит рядом с бетономешалкой в полутёмном помещении" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 2 из фильма «Пиздец»">
-                  <img src="assets/frames/pizdets/00m13s.webp" srcset="assets/frames/pizdets/00m13s-small.webp 640w, assets/frames/pizdets/00m13s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Мужчина под зелёным пледом в кресле на ночной террасе" loading="eager" decoding="async">
+                  <img src="assets/frames/pizdets/00m13s.webp" srcset="assets/frames/pizdets/00m13s-small.webp 640w, assets/frames/pizdets/00m13s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Мужчина под зелёным пледом в кресле на ночной террасе" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 3 из фильма «Пиздец»">
-                  <img src="assets/frames/pizdets/01m14s.webp" srcset="assets/frames/pizdets/01m14s-small.webp 640w, assets/frames/pizdets/01m14s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Мужчина в очках под зелёным пледом запрокидывает голову" loading="eager" decoding="async">
+                  <img src="assets/frames/pizdets/01m14s.webp" srcset="assets/frames/pizdets/01m14s-small.webp 640w, assets/frames/pizdets/01m14s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Мужчина в очках под зелёным пледом запрокидывает голову" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 4 из фильма «Пиздец»">
-                  <img src="assets/frames/pizdets/01m39s.webp" srcset="assets/frames/pizdets/01m39s-small.webp 640w, assets/frames/pizdets/01m39s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Крупный план мужчины в очках при тёплом оранжевом свете" loading="eager" decoding="async">
+                  <img src="assets/frames/pizdets/01m39s.webp" srcset="assets/frames/pizdets/01m39s-small.webp 640w, assets/frames/pizdets/01m39s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Крупный план мужчины в очках при тёплом оранжевом свете" loading="eager" decoding="async">
                 </button>
               </div>
+            </div>
+            <div class="film-info">
+            <h3 id="pizdets-title">Пиздец</h3>
+            <p class="film-meta"><span>Игровой короткий метр</span><span aria-label="Длительность фильма">3:19</span></p>
+            <a class="watch-link" href="https://disk.yandex.ru/i/VKe8W2PtGh3Krw" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Пиздец» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+
             </div>
             <div class="gallery-controls">
               <div class="gallery-position"><span class="current" aria-live="polite" aria-atomic="true">01</span><span aria-hidden="true">/</span><span>04</span><div class="gallery-dots">
@@ -79,39 +76,41 @@
                 <button class="gallery-dot" type="button" aria-label="Кадр 4 из фильма «Пиздец»" aria-current="false"></button>
               </div></div>
               <div class="gallery-actions">
-                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Пиздец»" disabled>←</button>
-                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Пиздец»">→</button>
+                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Пиздец»" disabled><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button>
+                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Пиздец»"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
               </div>
             </div>
             <p class="gallery-hint">Четыре кадра из фильма · Нажмите на кадр, чтобы увеличить</p>
           </div>
+
+
+        <div class="film-note"><p class="film-description">Короткий игровой фильм, в котором я работаю по обе стороны камеры.</p><p class="film-role">Режиссёр и актёр</p></div>
         </article>
+        <h2 id="films-title" class="films-transition">Выбранные фильмы</h2>
         <article class="film" id="your-penis-size" aria-labelledby="your-penis-size-title">
-          <div class="film-info">
-            <span class="film-index" aria-hidden="true">02</span>
-            <h3 id="your-penis-size-title">Your penis size</h3>
-            <p class="film-meta"><span>Документальный фильм</span><span aria-label="Длительность фильма">6:29</span></p>
-            <p class="film-description">Внимание к герою, его речи и паузам. Аккуратное, минималистичное наблюдение.</p>
-            <p class="film-role">Режиссёр</p>
-            <a class="watch-link" href="https://disk.yandex.ru/i/Ox_zCB263Q14Cg" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Your penis size» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <span aria-hidden="true">↗</span></a>
-          </div>
           <div class="gallery" data-title="Your penis size" style="--ratio: 4 / 3">
             <div class="gallery-track" role="region" aria-label="Кадры из фильма «Your penis size». Листайте стрелками или прокруткой" tabindex="0">
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 1 из фильма «Your penis size»">
-                  <img src="assets/frames/your-penis-size/06m25s.webp" srcset="assets/frames/your-penis-size/06m25s-small.webp 640w, assets/frames/your-penis-size/06m25s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Герой на верёвочной подвеске среди деревьев" loading="eager" decoding="async">
+                  <img src="assets/frames/your-penis-size/06m25s.webp" srcset="assets/frames/your-penis-size/06m25s-small.webp 640w, assets/frames/your-penis-size/06m25s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Герой на верёвочной подвеске среди деревьев" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 2 из фильма «Your penis size»">
-                  <img src="assets/frames/your-penis-size/01.webp" srcset="assets/frames/your-penis-size/01-small.webp 640w, assets/frames/your-penis-size/01.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Молодой человек с ноутбуком за столом в деревянном доме" loading="eager" decoding="async">
+                  <img src="assets/frames/your-penis-size/01.webp" srcset="assets/frames/your-penis-size/01-small.webp 640w, assets/frames/your-penis-size/01.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Молодой человек с ноутбуком за столом в деревянном доме" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 3 из фильма «Your penis size»">
-                  <img src="assets/frames/your-penis-size/05m29s.webp" srcset="assets/frames/your-penis-size/05m29s-small.webp 640w, assets/frames/your-penis-size/05m29s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="960" alt="Крупный план героя с рукой у лица" loading="eager" decoding="async">
+                  <img src="assets/frames/your-penis-size/05m29s.webp" srcset="assets/frames/your-penis-size/05m29s-small.webp 640w, assets/frames/your-penis-size/05m29s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="960" alt="Крупный план героя с рукой у лица" loading="eager" decoding="async">
                 </button>
               </div>
+            </div>
+            <div class="film-info">
+            <h3 id="your-penis-size-title">Your penis size</h3>
+            <p class="film-meta"><span>Документальный фильм</span><span aria-label="Длительность фильма">6:29</span></p>
+            <a class="watch-link" href="https://disk.yandex.ru/i/Ox_zCB263Q14Cg" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Your penis size» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+
             </div>
             <div class="gallery-controls">
               <div class="gallery-position"><span class="current" aria-live="polite" aria-atomic="true">01</span><span aria-hidden="true">/</span><span>03</span><div class="gallery-dots">
@@ -120,54 +119,55 @@
                 <button class="gallery-dot" type="button" aria-label="Кадр 3 из фильма «Your penis size»" aria-current="false"></button>
               </div></div>
               <div class="gallery-actions">
-                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Your penis size»" disabled>←</button>
-                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Your penis size»">→</button>
+                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Your penis size»" disabled><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button>
+                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Your penis size»"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
               </div>
             </div>
             <p class="gallery-hint">Три кадра из фильма · Нажмите на кадр, чтобы увеличить</p>
           </div>
+
+
+        <div class="film-note"><p class="film-description">Внимание к герою, его речи и паузам. Аккуратное, минималистичное наблюдение.</p><p class="film-role">Режиссёр</p></div>
         </article>
         <article class="film" id="tam-nas-zhdut" aria-labelledby="tam-nas-zhdut-title">
-          <div class="film-info">
-            <span class="film-index" aria-hidden="true">03</span>
-            <h3 id="tam-nas-zhdut-title">Там нас ждут</h3>
-            <p class="film-meta"><span>Короткий метр</span><span aria-label="Длительность фильма">13:52</span></p>
-            <p class="film-description">Медленное кино. Эксперименты с формой, временем и пространством кадра.</p>
-            <p class="film-role">Режиссёр</p>
-            <a class="watch-link" href="https://disk.yandex.ru/i/zFSBnSB1prZiBw" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Там нас ждут» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <span aria-hidden="true">↗</span></a>
-          </div>
           <div class="gallery" data-title="Там нас ждут" style="--ratio: 16 / 9">
             <div class="gallery-track" role="region" aria-label="Кадры из фильма «Там нас ждут». Листайте стрелками или прокруткой" tabindex="0">
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 1 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/01m34s.webp" srcset="assets/frames/tam-nas-zhdut/01m34s-small.webp 640w, assets/frames/tam-nas-zhdut/01m34s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Дверь на чёрном фоне" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/01m34s.webp" srcset="assets/frames/tam-nas-zhdut/01m34s-small.webp 640w, assets/frames/tam-nas-zhdut/01m34s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Дверь на чёрном фоне" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 2 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/00m42s.webp" srcset="assets/frames/tam-nas-zhdut/00m42s-small.webp 640w, assets/frames/tam-nas-zhdut/00m42s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Девушка у берега склоняется к воде" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/00m42s.webp" srcset="assets/frames/tam-nas-zhdut/00m42s-small.webp 640w, assets/frames/tam-nas-zhdut/00m42s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Девушка у берега склоняется к воде" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 3 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/03m23s.webp" srcset="assets/frames/tam-nas-zhdut/03m23s-small.webp 640w, assets/frames/tam-nas-zhdut/03m23s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Девушка с сигаретой в дверном проёме" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/03m23s.webp" srcset="assets/frames/tam-nas-zhdut/03m23s-small.webp 640w, assets/frames/tam-nas-zhdut/03m23s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Девушка с сигаретой в дверном проёме" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 4 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/06m26s.webp" srcset="assets/frames/tam-nas-zhdut/06m26s-small.webp 640w, assets/frames/tam-nas-zhdut/06m26s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Общий план: фигура в чёрном у окна кирпичного дома" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/06m26s.webp" srcset="assets/frames/tam-nas-zhdut/06m26s-small.webp 640w, assets/frames/tam-nas-zhdut/06m26s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Общий план: фигура в чёрном у окна кирпичного дома" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 5 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/10m11s.webp" srcset="assets/frames/tam-nas-zhdut/10m11s-small.webp 640w, assets/frames/tam-nas-zhdut/10m11s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Человек у оранжевой лодки на берегу" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/10m11s.webp" srcset="assets/frames/tam-nas-zhdut/10m11s-small.webp 640w, assets/frames/tam-nas-zhdut/10m11s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Человек у оранжевой лодки на берегу" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 6 из фильма «Там нас ждут»">
-                  <img src="assets/frames/tam-nas-zhdut/13m21s.webp" srcset="assets/frames/tam-nas-zhdut/13m21s-small.webp 640w, assets/frames/tam-nas-zhdut/13m21s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Круглый кадр: чёрная фигура над поднятыми руками" loading="eager" decoding="async">
+                  <img src="assets/frames/tam-nas-zhdut/13m21s.webp" srcset="assets/frames/tam-nas-zhdut/13m21s-small.webp 640w, assets/frames/tam-nas-zhdut/13m21s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Круглый кадр: чёрная фигура над поднятыми руками" loading="eager" decoding="async">
                 </button>
               </div>
+            </div>
+            <div class="film-info">
+            <h3 id="tam-nas-zhdut-title">Там нас ждут</h3>
+            <p class="film-meta"><span>Короткий метр</span><span aria-label="Длительность фильма">13:52</span></p>
+            <a class="watch-link" href="https://disk.yandex.ru/i/zFSBnSB1prZiBw" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Там нас ждут» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+
             </div>
             <div class="gallery-controls">
               <div class="gallery-position"><span class="current" aria-live="polite" aria-atomic="true">01</span><span aria-hidden="true">/</span><span>06</span><div class="gallery-dots">
@@ -179,44 +179,45 @@
                 <button class="gallery-dot" type="button" aria-label="Кадр 6 из фильма «Там нас ждут»" aria-current="false"></button>
               </div></div>
               <div class="gallery-actions">
-                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Там нас ждут»" disabled>←</button>
-                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Там нас ждут»">→</button>
+                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Там нас ждут»" disabled><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button>
+                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Там нас ждут»"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
               </div>
             </div>
             <p class="gallery-hint">Шесть кадров из фильма · Нажмите на кадр, чтобы увеличить</p>
           </div>
+
+
+        <div class="film-note"><p class="film-description">Медленное кино. Эксперименты с формой, временем и пространством кадра.</p><p class="film-role">Режиссёр</p></div>
         </article>
         <article class="film" id="potok" aria-labelledby="potok-title">
-          <div class="film-info">
-            <span class="film-index" aria-hidden="true">04</span>
-            <h3 id="potok-title">Поток</h3>
-            <p class="film-meta"><span>Игровой короткий метр</span><span aria-label="Длительность фильма">4:56</span></p>
-            <p class="film-description">Концептуальный короткий игровой фильм.</p>
-            <p class="film-role">Режиссёр</p>
-            <a class="watch-link" href="https://disk.yandex.ru/i/F5SeDf0RuftsUQ" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Поток» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <span aria-hidden="true">↗</span></a>
-          </div>
           <div class="gallery" data-title="Поток" style="--ratio: 16 / 9">
             <div class="gallery-track" role="region" aria-label="Кадры из фильма «Поток». Листайте стрелками или прокруткой" tabindex="0">
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 1 из фильма «Поток»">
-                  <img src="assets/frames/potok/01m00s.webp" srcset="assets/frames/potok/01m00s-small.webp 640w, assets/frames/potok/01m00s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Чёрно-белый портрет мужчины у окна" loading="eager" decoding="async">
+                  <img src="assets/frames/potok/01m00s.webp" srcset="assets/frames/potok/01m00s-small.webp 640w, assets/frames/potok/01m00s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Чёрно-белый портрет мужчины у окна" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 2 из фильма «Поток»">
-                  <img src="assets/frames/potok/03m06s.webp" srcset="assets/frames/potok/03m06s-small.webp 640w, assets/frames/potok/03m06s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Чёрно-белый кадр: ноги в воде у берега" loading="eager" decoding="async">
+                  <img src="assets/frames/potok/03m06s.webp" srcset="assets/frames/potok/03m06s-small.webp 640w, assets/frames/potok/03m06s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Чёрно-белый кадр: ноги в воде у берега" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 3 из фильма «Поток»">
-                  <img src="assets/frames/potok/03m27s.webp" srcset="assets/frames/potok/03m27s-small.webp 640w, assets/frames/potok/03m27s.webp 1280w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1280" height="720" alt="Чёрно-белый кадр: рука и яйца на траве, поверх нотная запись" loading="eager" decoding="async">
+                  <img src="assets/frames/potok/03m27s.webp" srcset="assets/frames/potok/03m27s-small.webp 640w, assets/frames/potok/03m27s.webp 1280w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1280" height="720" alt="Чёрно-белый кадр: рука и яйца на траве, поверх нотная запись" loading="eager" decoding="async">
                 </button>
               </div>
               <div class="slide">
                 <button class="frame" type="button" aria-label="Увеличить кадр 4 из фильма «Поток»">
-                  <img src="assets/frames/potok/04m52s667.webp" srcset="assets/frames/potok/04m52s667-small.webp 640w, assets/frames/potok/04m52s667-medium.webp 1280w, assets/frames/potok/04m52s667.webp 1920w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 1000px) 58vw, 66vw" width="1920" height="1080" alt="Крупный план мужчины с закрытыми глазами и запрокинутой головой в красном свете" loading="eager" decoding="async">
+                  <img src="assets/frames/potok/04m52s667.webp" srcset="assets/frames/potok/04m52s667-small.webp 640w, assets/frames/potok/04m52s667-medium.webp 1280w, assets/frames/potok/04m52s667.webp 1920w" sizes="(max-width: 760px) calc(100vw - 32px), 66vw" width="1920" height="1080" alt="Крупный план мужчины с закрытыми глазами и запрокинутой головой в красном свете" loading="eager" decoding="async">
                 </button>
               </div>
+            </div>
+            <div class="film-info">
+            <h3 id="potok-title">Поток</h3>
+            <p class="film-meta"><span>Игровой короткий метр</span><span aria-label="Длительность фильма">4:56</span></p>
+            <a class="watch-link" href="https://disk.yandex.ru/i/F5SeDf0RuftsUQ" target="_blank" rel="noopener noreferrer" aria-label="Смотреть фильм «Поток» на Яндекс Диске, откроется в новой вкладке">Смотреть на Диске <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+
             </div>
             <div class="gallery-controls">
               <div class="gallery-position"><span class="current" aria-live="polite" aria-atomic="true">01</span><span aria-hidden="true">/</span><span>04</span><div class="gallery-dots">
@@ -226,12 +227,15 @@
                 <button class="gallery-dot" type="button" aria-label="Кадр 4 из фильма «Поток»" aria-current="false"></button>
               </div></div>
               <div class="gallery-actions">
-                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Поток»" disabled>←</button>
-                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Поток»">→</button>
+                <button class="arrow" type="button" data-prev aria-label="Предыдущий кадр фильма «Поток»" disabled><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button>
+                <button class="arrow" type="button" data-next aria-label="Следующий кадр фильма «Поток»"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
               </div>
             </div>
             <p class="gallery-hint">Четыре кадра из фильма · Нажмите на кадр, чтобы увеличить</p>
           </div>
+
+
+        <div class="film-note"><p class="film-description">Концептуальный короткий игровой фильм.</p><p class="film-role">Режиссёр</p></div>
         </article>
       </section>
       <section class="about" id="about" aria-labelledby="about-title">
@@ -243,16 +247,16 @@
       </section>
       <section class="contact" id="contact" aria-labelledby="contact-title">
         <div><h2 id="contact-title">Давайте поговорим.</h2><p>О фильме, идее или совместной работе.</p></div>
-        <a class="contact-link" href="https://t.me/sestricia" target="_blank" rel="noopener noreferrer" aria-label="Написать Грише Тихонову в Telegram, откроется в новой вкладке">@sestricia <span aria-hidden="true">↗</span></a>
+        <a class="contact-link" href="https://t.me/sestricia" target="_blank" rel="noopener noreferrer" aria-label="Написать Грише Тихонову в Telegram, откроется в новой вкладке">@sestricia <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
       </section>
     </main>
-    <footer class="site-footer"><span>© 2026 Гриша Тихонов</span><a href="#top">Наверх ↑</a></footer>
+    <footer class="site-footer"><span>© 2026 Гриша Тихонов</span><a href="#top">Наверх <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a></footer>
   </div>
   <dialog class="lightbox" aria-label="Просмотр кадра" aria-labelledby="lightbox-title">
     <div class="lightbox-inner">
       <div class="lightbox-header"><span class="lightbox-title" id="lightbox-title"></span><button class="lightbox-close" type="button" data-close autofocus aria-label="Закрыть просмотр кадра">Закрыть ×</button></div>
       <img class="lightbox-image" alt="">
-      <div class="lightbox-footer"><span class="lightbox-counter" aria-live="polite"></span><div class="gallery-actions"><button class="arrow" type="button" data-lightbox-prev aria-label="Предыдущий кадр">←</button><button class="arrow" type="button" data-lightbox-next aria-label="Следующий кадр">→</button></div></div>
+      <div class="lightbox-footer"><span class="lightbox-counter" aria-live="polite"></span><div class="gallery-actions"><button class="arrow" type="button" data-lightbox-prev aria-label="Предыдущий кадр"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M20 12H4m6-6-6 6 6 6"/></svg></button><button class="arrow" type="button" data-lightbox-next aria-label="Следующий кадр"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button></div></div>
     </div>
   </dialog>
 </body>

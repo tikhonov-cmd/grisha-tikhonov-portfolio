@@ -88,3 +88,24 @@ lightbox.addEventListener('close', () => {
   activeGallery = null;
   frame?.focus({ preventScroll: true });
 });
+
+const workLinks = Array.from(document.querySelectorAll('.work-index a'));
+const films = Array.from(document.querySelectorAll('.film'));
+let navigationFrame = null;
+function updateWorkIndex() {
+  const readingLine = Math.min(window.innerHeight * 0.35, 280);
+  let activeFilm = films[0];
+  for (const film of films) {
+    if (film.getBoundingClientRect().top <= readingLine) activeFilm = film;
+  }
+  workLinks.forEach((link) => {
+    if (link.hash === `#${activeFilm.id}`) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  });
+  navigationFrame = null;
+}
+window.addEventListener('scroll', () => {
+  if (navigationFrame === null) navigationFrame = requestAnimationFrame(updateWorkIndex);
+}, { passive: true });
+window.addEventListener('resize', updateWorkIndex);
+updateWorkIndex();
