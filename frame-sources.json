@@ -8,24 +8,20 @@
     "height": 3072,
     "selected_frames": [
       {
-        "file": "assets/frames/pizdets/01-concrete-mixer.webp",
-        "time_seconds": 143.15
+        "file": "assets/frames/pizdets/02m26s.webp",
+        "time_seconds": 146
       },
       {
-        "file": "assets/frames/pizdets/02.webp",
-        "time_seconds": 11.93
+        "file": "assets/frames/pizdets/00m13s.webp",
+        "time_seconds": 13
       },
       {
-        "file": "assets/frames/pizdets/03.webp",
-        "time_seconds": 47.72
+        "file": "assets/frames/pizdets/01m14s.webp",
+        "time_seconds": 74
       },
       {
-        "file": "assets/frames/pizdets/04.webp",
-        "time_seconds": 131.22
-      },
-      {
-        "file": "assets/frames/pizdets/05.webp",
-        "time_seconds": 178.94
+        "file": "assets/frames/pizdets/01m39s.webp",
+        "time_seconds": 99
       }
     ]
   },
