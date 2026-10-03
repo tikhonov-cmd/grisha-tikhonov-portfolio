@@ -34,24 +34,16 @@
     "height": 1200,
     "selected_frames": [
       {
+        "file": "assets/frames/your-penis-size/06m25s.webp",
+        "time_seconds": 385
+      },
+      {
         "file": "assets/frames/your-penis-size/01.webp",
         "time_seconds": 163.34
       },
       {
-        "file": "assets/frames/your-penis-size/02.webp",
-        "time_seconds": 23.33
-      },
-      {
-        "file": "assets/frames/your-penis-size/03.webp",
-        "time_seconds": 256.67
-      },
-      {
-        "file": "assets/frames/your-penis-size/04.webp",
-        "time_seconds": 303.34
-      },
-      {
-        "file": "assets/frames/your-penis-size/05.webp",
-        "time_seconds": 350.01
+        "file": "assets/frames/your-penis-size/05m29s.webp",
+        "time_seconds": 329
       }
     ]
   },
@@ -64,24 +56,28 @@
     "height": 2160,
     "selected_frames": [
       {
-        "file": "assets/frames/tam-nas-zhdut/01.webp",
-        "time_seconds": 149.69
+        "file": "assets/frames/tam-nas-zhdut/01m34s.webp",
+        "time_seconds": 94
       },
       {
-        "file": "assets/frames/tam-nas-zhdut/02.webp",
-        "time_seconds": 49.9
+        "file": "assets/frames/tam-nas-zhdut/00m42s.webp",
+        "time_seconds": 42
       },
       {
-        "file": "assets/frames/tam-nas-zhdut/03.webp",
-        "time_seconds": 349.28
+        "file": "assets/frames/tam-nas-zhdut/03m23s.webp",
+        "time_seconds": 203
       },
       {
-        "file": "assets/frames/tam-nas-zhdut/04.webp",
-        "time_seconds": 399.18
+        "file": "assets/frames/tam-nas-zhdut/06m26s.webp",
+        "time_seconds": 386
       },
       {
-        "file": "assets/frames/tam-nas-zhdut/05.webp",
-        "time_seconds": 698.57
+        "file": "assets/frames/tam-nas-zhdut/10m11s.webp",
+        "time_seconds": 611
+      },
+      {
+        "file": "assets/frames/tam-nas-zhdut/13m21s.webp",
+        "time_seconds": 801
       }
     ]
   },
@@ -94,24 +90,20 @@
     "height": 1080,
     "selected_frames": [
       {
-        "file": "assets/frames/potok/01.webp",
-        "time_seconds": 213.24
+        "file": "assets/frames/potok/01m00s.webp",
+        "time_seconds": 60
       },
       {
-        "file": "assets/frames/potok/02.webp",
-        "time_seconds": 124.39
+        "file": "assets/frames/potok/03m06s.webp",
+        "time_seconds": 186
       },
       {
-        "file": "assets/frames/potok/03.webp",
-        "time_seconds": 142.16
+        "file": "assets/frames/potok/03m27s.webp",
+        "time_seconds": 207
       },
       {
-        "file": "assets/frames/potok/04.webp",
-        "time_seconds": 195.47
-      },
-      {
-        "file": "assets/frames/potok/05.webp",
-        "time_seconds": 231.01
+        "file": "assets/frames/potok/04m52s.webp",
+        "time_seconds": 292
       }
     ]
   }
