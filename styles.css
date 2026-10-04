@@ -117,11 +117,11 @@ body:has(.lightbox[open]){overflow:hidden}
 
 .directory-title{font-size:18px;font-weight:400;line-height:1.25}
 .film{--frame-ratio:1.333333;width:min(100%,calc((100svh - 300px) * var(--frame-ratio)))}
-#tam-nas-zhdut{--frame-ratio:1.777778}
-#potok{--frame-ratio:1.222222}
-/* Potok's 16:9 source contains a centred 11:9 picture. Hide only its encoded side mattes. */
+
+
+/* Fit Potok's 11:9 picture inside the shared 4:3 aperture; preserve the original geometry. */
 #potok .frame{overflow:hidden}
-#potok .frame img{position:absolute;top:0;left:50%;width:145.454545%;height:100%;max-width:none;transform:translateX(-50%)}
+#potok .frame img{position:absolute;top:0;left:50%;width:133.333333%;height:100%;max-width:none;transform:translateX(-50%)}
 @media(max-width:760px){
  .masthead{padding:16px 0 20px}
  .masthead h1{font-size:clamp(32px,8.5vw,58px)}
