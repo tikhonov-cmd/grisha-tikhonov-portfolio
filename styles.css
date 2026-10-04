@@ -108,3 +108,9 @@ body:has(.lightbox[open]){overflow:hidden}
 @media(hover:none){.gallery-side:not(:disabled) svg{opacity:.8}}
 
 @media(max-width:760px){.about-title{margin-bottom:28px}}
+
+.about-theses{margin:0;padding-left:1.5em;font-size:18px;line-height:1.55;max-width:65ch}
+.about-theses li{padding-left:.3em}
+.about-theses li+li{margin-top:22px}
+.about-theses li::marker{font-variant-numeric:tabular-nums}
+@media(max-width:760px){.about-theses{font-size:16px;line-height:1.5}}
