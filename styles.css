@@ -116,7 +116,7 @@ body:has(.lightbox[open]){overflow:hidden}
 @media(max-width:760px){.about-theses{font-size:16px;line-height:1.5}}
 
 .directory-title{font-size:18px;font-weight:400;line-height:1.25}
-.film{--frame-ratio:1.333333;width:min(100%,calc((100svh - 300px) * var(--frame-ratio)))}
+.film{--frame-ratio:1.333333;width:min(100%,calc((100svh - 340px) * var(--frame-ratio)))}
 
 
 /* Fit Potok's 11:9 picture inside the shared 4:3 aperture; preserve the original geometry. */
@@ -140,7 +140,7 @@ body:has(.lightbox[open]){overflow:hidden}
 }
 
 /* Align the name with the film column. */
-.masthead{margin-left:calc(max(200px,21%) + 3.5%);padding-top:18px;padding-bottom:18px}
-.masthead h1{font-size:clamp(48px,7.5vw,94px)}
+.masthead{margin-left:calc(max(200px,21%) + 3.5%);padding-top:18px;padding-bottom:18px;overflow:visible}
+.masthead h1{font-size:clamp(67.2px,10.5vw,131.6px)}
 @media(max-width:1000px){.masthead{margin-left:calc(max(170px,22%) + 3%)}}
 @media(max-width:760px){.masthead{margin-left:0;padding-top:16px;padding-bottom:16px}.masthead h1{font-size:calc((100vw - 32px) / 6.98)}}
