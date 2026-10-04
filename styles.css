@@ -58,7 +58,7 @@ p,h1,h2,h3{margin:0}
 .watch-link:hover{text-decoration-thickness:2px}
 .about{grid-column:1 / -1;display:grid;grid-template-columns:21% minmax(0,1fr);gap:3.5%;border-top:1px solid var(--line);padding:48px 0 88px;scroll-margin-top:24px}
 .about h2{font-family:var(--display);font-size:48px;line-height:1.05;font-weight:800;letter-spacing:-.025em}
-.about-title p{font-size:14px;margin-top:18px;color:var(--muted)}
+
 .about-copy{max-width:70ch}
 .about-copy p:first-child{font-family:var(--title);font-size:clamp(26px,2.5vw,36px);line-height:1.35;letter-spacing:-.02em;max-width:38ch;margin-bottom:28px}
 .about-copy p+p{font-size:18px;line-height:1.55;max-width:65ch}
@@ -83,7 +83,7 @@ p,h1,h2,h3{margin:0}
 body:has(.lightbox[open]){overflow:hidden}
 @media(min-width:1800px){.masthead h1{font-size:246px}}
 @media(max-width:1000px){.portfolio{grid-template-columns:minmax(170px,22%) minmax(0,1fr);column-gap:3%}.work-index a{font-size:17px;gap:8px}.watch-link{font-size:14px}.film-info{column-gap:12px}.gallery-dots{margin-left:8px}.gallery-dot{width:23px}.about{grid-template-columns:22% minmax(0,1fr);gap:3%}}
-@media(max-width:760px){:root{--margin:16px}.masthead{padding:22px 0 24px}.masthead h1{font-size:calc((100vw - 32px) / 6.98);letter-spacing:-.035em;line-height:1}.portfolio{display:block}.directory-inner{position:static;min-height:0;padding:0 0 24px}.work-index{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.work-index a{font-size:16px;min-height:44px;gap:8px;padding:7px 0}.work-index span{font-size:12px}.directory-bottom{max-width:34ch;padding-top:18px}.hero-intro{font-size:15px;line-height:1.4}.directory-links{margin-top:12px;gap:24px}.directory-links a{min-height:44px;padding:10px 0}.film{margin-bottom:64px;scroll-margin-top:16px}.film:last-child{margin-bottom:56px}.film-info{display:flex;flex-direction:column;gap:10px;margin-top:18px}.film-info h2{font-size:32px}.film-meta{font-size:13px;gap:16px}.film-description{font-size:15px;margin-top:8px;max-width:40ch}.film-role{margin-top:0}.watch-link{font-size:15px;margin-top:8px;min-height:44px}.gallery-controls{gap:8px}.gallery-dots{margin-left:8px}.gallery-dot{width:24px}.gallery-position{gap:6px;font-size:13px}.gallery-actions{gap:0}.arrow{width:44px}.about{display:block;padding:36px 0 56px}.about-title p{margin-top:12px;margin-bottom:28px}.about h2{font-size:38px}.about-copy p:first-child{font-size:25px;max-width:32ch;margin-bottom:22px}.about-copy p+p{font-size:16px;line-height:1.5}.contact{padding-top:20px;padding-bottom:20px}.contact-link{font-size:21px;max-width:100%;gap:10px}.contact-link svg{width:20px;height:20px}.lightbox-inner{padding:12px}.lightbox-title{font-size:18px}.lightbox-close{font-size:13px}.lightbox-image{height:calc(96svh - 150px)}}
+@media(max-width:760px){:root{--margin:16px}.masthead{padding:22px 0 24px}.masthead h1{font-size:calc((100vw - 32px) / 6.98);letter-spacing:-.035em;line-height:1}.portfolio{display:block}.directory-inner{position:static;min-height:0;padding:0 0 24px}.work-index{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.work-index a{font-size:16px;min-height:44px;gap:8px;padding:7px 0}.work-index span{font-size:12px}.directory-bottom{max-width:34ch;padding-top:18px}.hero-intro{font-size:15px;line-height:1.4}.directory-links{margin-top:12px;gap:24px}.directory-links a{min-height:44px;padding:10px 0}.film{margin-bottom:64px;scroll-margin-top:16px}.film:last-child{margin-bottom:56px}.film-info{display:flex;flex-direction:column;gap:10px;margin-top:18px}.film-info h2{font-size:32px}.film-meta{font-size:13px;gap:16px}.film-description{font-size:15px;margin-top:8px;max-width:40ch}.film-role{margin-top:0}.watch-link{font-size:15px;margin-top:8px;min-height:44px}.gallery-controls{gap:8px}.gallery-dots{margin-left:8px}.gallery-dot{width:24px}.gallery-position{gap:6px;font-size:13px}.gallery-actions{gap:0}.arrow{width:44px}.about{display:block;padding:36px 0 56px}.about h2{font-size:38px}.about-copy p:first-child{font-size:25px;max-width:32ch;margin-bottom:22px}.about-copy p+p{font-size:16px;line-height:1.5}.contact{padding-top:20px;padding-bottom:20px}.contact-link{font-size:21px;max-width:100%;gap:10px}.contact-link svg{width:20px;height:20px}.lightbox-inner{padding:12px}.lightbox-title{font-size:18px}.lightbox-close{font-size:13px}.lightbox-image{height:calc(96svh - 150px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .film-note{max-width:58ch;margin-top:22px}
@@ -91,7 +91,7 @@ body:has(.lightbox[open]){overflow:hidden}
 .film-note .film-role{margin-top:10px}
 @media(max-width:760px){.film-info .watch-link{order:3;margin-top:0}.film-note{margin-top:20px}.film-note .film-description{max-width:40ch}}
 
-@media(min-width:761px){#pizdets .gallery-track{aspect-ratio:1.8467}}
+
 
 
 
@@ -106,3 +106,5 @@ body:has(.lightbox[open]){overflow:hidden}
 .gallery-side:focus-visible{outline-color:#fff;outline-offset:-5px}
 .about-copy p+p+p{margin-top:22px}
 @media(hover:none){.gallery-side:not(:disabled) svg{opacity:.8}}
+
+@media(max-width:760px){.about-title{margin-bottom:28px}}
