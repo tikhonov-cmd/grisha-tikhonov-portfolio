@@ -26,6 +26,8 @@ document.querySelectorAll('.gallery').forEach((gallery) => {
   const dots = Array.from(gallery.querySelectorAll('.gallery-dot'));
   const previous = gallery.querySelector('[data-prev]');
   const next = gallery.querySelector('[data-next]');
+  const sidePrevious = gallery.querySelector('[data-side-prev]');
+  const sideNext = gallery.querySelector('[data-side-next]');
   const current = gallery.querySelector('.current');
   const frames = Array.from(track.querySelectorAll('.frame'));
   const state = { index: 0, images, frames, title: gallery.dataset.title, goTo };
@@ -36,6 +38,8 @@ document.querySelectorAll('.gallery').forEach((gallery) => {
     current.textContent = String(state.index + 1).padStart(2, '0');
     previous.disabled = state.index === 0;
     next.disabled = state.index === images.length - 1;
+    sidePrevious.disabled = previous.disabled;
+    sideNext.disabled = next.disabled;
     dots.forEach((dot, i) => dot.setAttribute('aria-current', String(i === state.index)));
     if (activeGallery === state && lightbox.open) updateLightbox();
   }
@@ -47,6 +51,8 @@ document.querySelectorAll('.gallery').forEach((gallery) => {
 
   previous.addEventListener('click', () => goTo(state.index - 1));
   next.addEventListener('click', () => goTo(state.index + 1));
+  sidePrevious.addEventListener('click', () => goTo(state.index - 1, true));
+  sideNext.addEventListener('click', () => goTo(state.index + 1, true));
   dots.forEach((dot, i) => dot.addEventListener('click', () => goTo(i)));
   track.addEventListener('scroll', () => {
     if (scrollFrame !== null) return;
